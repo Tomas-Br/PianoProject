@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Piano</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="title">Virtual Piano &#9834; </h1>
+    <div class="noteBox">
+        <div class="noteBox2">
+            <p id="notePressed">
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <div id="piano">
+
+        <!-- <img id='speakerCone' src="./assets/speakerCone.svg" alt="a speaker cone for a piano"></img> -->
+        <div class="keys">
+            <div class="blackKeys">
+                <div data-note="C#3" class="key black-key"></div>
+                <div data-note="D#3" class="key black-key"></div>
+                <div data-note="F#3" class="key black-key"></div>
+                <div data-note="G#3" class="key black-key"></div>
+                <div data-note="A#3" class="key black-key"></div>
+                <div data-note="C#4" class="key black-key"></div>
+                <div data-note="D#4" class="key black-key"></div>
+                <div data-note="F#4" class="key black-key"></div>
+                <div data-note="G#4" class="key black-key"></div>
+                <div data-note="A#4" class="key black-key"></div>
+                <div data-note="C#5" class="key black-key"></div>
+                <div data-note="D#5" class="key black-key"></div>
+                <div data-note="F#5" class="key black-key"></div>
+                <div data-note="G#5" class="key black-key"></div>
+                <div data-note="A#5" class="key black-key"></div>
+
+            </div>
+            <div class="whiteKeys">
+                <div data-note="C3" class="key white-key"></div>
+                <div data-note="D3" class="key white-key"></div>
+                <div data-note="E3" class="key white-key"></div>
+                <div data-note="F3" class="key white-key"></div>
+                <div data-note="G3" class="key white-key"></div>
+                <div data-note="A3" class="key white-key"></div>
+                <div data-note="B3" class="key white-key"></div>
+                <div data-note="C4Middle" class="key white-key"></div>
+                <div data-note="D4" class="key white-key"></div>
+                <div data-note="E4" class="key white-key"></div>
+                <div data-note="F4" class="key white-key"></div>
+                <div data-note="G4" class="key white-key"></div>
+                <div data-note="A4" class="key white-key"></div>
+                <div data-note="B4" class="key white-key"></div>
+                <div data-note="C5" class="key white-key"></div>
+                <div data-note="D5" class="key white-key"></div>
+                <div data-note="E5" class="key white-key"></div>
+                <div data-note="F5" class="key white-key"></div>
+                <div data-note="G5" class="key white-key"></div>
+                <div data-note="A5" class="key white-key"></div>
+                <div data-note="B5" class="key white-key"></div>
+                <div data-note="C6" class="key white-key"></div>
+            </div>
+        </div>
+
+
+        <audio id="" src=""></audio>
+
+
+
+    </div>
+    <audio id="C3" src="./assets/2489__jobro__piano-ff/C3.wav"></audio>
+    <audio id="C#3" src="./assets/2489__jobro__piano-ff/Cs3.wav"></audio>
+    <audio id="D3" src="./assets/2489__jobro__piano-ff/D3.wav"></audio>
+    <audio id="D#3" src="./assets/2489__jobro__piano-ff/Ds3.wav"></audio>
+    <audio id="E3" src="./assets/2489__jobro__piano-ff/E3.wav"></audio>
+    <audio id="F3" src="./assets/2489__jobro__piano-ff/F3.wav"></audio>
+    <audio id="F#3" src="./assets/2489__jobro__piano-ff/Fs3.wav"></audio>
+    <audio id="G3" src="./assets/2489__jobro__piano-ff/G3.wav"></audio>
+    <audio id="G#3" src="./assets/2489__jobro__piano-ff/Gs3.wav"></audio>
+    <audio id="A3" src="./assets/2489__jobro__piano-ff/A3.wav"></audio>
+    <audio id="A#3" src="./assets/2489__jobro__piano-ff/As3.wav"></audio>
+    <audio id="B3" src="./assets/2489__jobro__piano-ff/B3.wav"></audio>
+    <audio id="C4Middle" src="./assets/2489__jobro__piano-ff/C4Middle.wav"></audio>
+    <audio id="C#4" src="./assets/2489__jobro__piano-ff/Cs4.wav"></audio>
+    <audio id="D4" src="./assets/2489__jobro__piano-ff/D4.wav"></audio>
+    <audio id="D#4" src="./assets/2489__jobro__piano-ff/Ds4.wav"></audio>
+    <audio id="E4" src="./assets/2489__jobro__piano-ff/E4.wav"></audio>
+    <audio id="F4" src="./assets/2489__jobro__piano-ff/F4.wav"></audio>
+    <audio id="F#4" src="./assets/2489__jobro__piano-ff/Fs4.wav"></audio>
+    <audio id="G4" src="./assets/2489__jobro__piano-ff/G4.wav"></audio>
+    <audio id="G#4" src="./assets/2489__jobro__piano-ff/Gs4.wav"></audio>
+    <audio id="A4" src="./assets/2489__jobro__piano-ff/A4.wav"></audio>
+    <audio id="A#4" src="./assets/2489__jobro__piano-ff/As4.wav"></audio>
+    <audio id="B4" src="./assets/2489__jobro__piano-ff/B4.wav"></audio>
+    <audio id="C5" src="./assets/2489__jobro__piano-ff/C5.wav"></audio>
+    <audio id="C#5" src="./assets/2489__jobro__piano-ff/Cs5.wav"></audio>
+    <audio id="D5" src="./assets/2489__jobro__piano-ff/D5.wav"></audio>
+    <audio id="D#5" src="./assets/2489__jobro__piano-ff/Ds5.wav"></audio>
+    <audio id="E5" src="./assets/2489__jobro__piano-ff/E5.wav"></audio>
+    <audio id="F5" src="./assets/2489__jobro__piano-ff/F5.wav"></audio>
+    <audio id="F5" src="./assets/2489__jobro__piano-ff/F5.wav"></audio>
+    <audio id="F#5" src="./assets/2489__jobro__piano-ff/Fs5.wav"></audio>
+    <audio id="G5" src="./assets/2489__jobro__piano-ff/G5.wav"></audio>
+    <audio id="G#5" src="./assets/2489__jobro__piano-ff/Gs5.wav"></audio>
+    <audio id="A5" src="./assets/2489__jobro__piano-ff/A5.wav"></audio>
+    <audio id="A#5" src="./assets/2489__jobro__piano-ff/As5.wav"></audio>
+    <audio id="B5" src="./assets/2489__jobro__piano-ff/B5.wav"></audio>
+    <audio id="C6" src="./assets/2489__jobro__piano-ff/C6.wav"></audio>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

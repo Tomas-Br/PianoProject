@@ -1,0 +1,86 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>New Project</title>
+	<defs>
+		<image  width="300" height="300" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAAiSURBVHic7cExAQAAAMKg9U9tCj+gAAAAAAAAAAAAAAB4GS20AAFmdDNkAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Shape 1" class="s0" d="m82 51h5v5h-5z"/>
+	<path id="Shape 1 copy 64" class="s0" d="m130 63h5v5h-5z"/>
+	<path id="Shape 1 copy 65" class="s0" d="m130 57h5v5h-5z"/>
+	<path id="Shape 1 copy 66" class="s0" d="m130 69h5v5h-5z"/>
+	<path id="Shape 1 copy 67" class="s0" d="m130 81h5v5h-5z"/>
+	<path id="Shape 1 copy 68" class="s0" d="m130 75h5v5h-5z"/>
+	<path id="Shape 1 copy 69" class="s0" d="m130 87h5v5h-5z"/>
+	<path id="Shape 1 copy 70" class="s0" d="m76 63h5v5h-5z"/>
+	<path id="Shape 1 copy 71" class="s0" d="m76 57h5v5h-5z"/>
+	<path id="Shape 1 copy 72" class="s0" d="m76 69h5v5h-5z"/>
+	<path id="Shape 1 copy 73" class="s0" d="m76 81h5v5h-5z"/>
+	<path id="Shape 1 copy 74" class="s0" d="m76 75h5v5h-5z"/>
+	<path id="Shape 1 copy 75" class="s0" d="m76 87h5v5h-5z"/>
+	<path id="Shape 1 copy" class="s0" d="m82 57h5v5h-5z"/>
+	<path id="Shape 1 copy 2" class="s0" d="m82 63h5v5h-5z"/>
+	<path id="Shape 1 copy 3" class="s0" d="m82 69h5v5h-5z"/>
+	<path id="Shape 1 copy 4" class="s0" d="m82 75h5v5h-5z"/>
+	<path id="Shape 1 copy 5" class="s0" d="m82 81h5v5h-5z"/>
+	<path id="Shape 1 copy 6" class="s0" d="m82 87h5v5h-5z"/>
+	<path id="Shape 1 copy 7" class="s0" d="m82 93h5v5h-5z"/>
+	<path id="Shape 1 copy 8" class="s0" d="m88 51h5v5h-5z"/>
+	<path id="Shape 1 copy 9" class="s0" d="m88 57h5v5h-5z"/>
+	<path id="Shape 1 copy 10" class="s0" d="m88 63h5v5h-5z"/>
+	<path id="Shape 1 copy 11" class="s0" d="m88 69h5v5h-5z"/>
+	<path id="Shape 1 copy 12" class="s0" d="m88 75h5v5h-5z"/>
+	<path id="Shape 1 copy 13" class="s0" d="m88 81h5v5h-5z"/>
+	<path id="Shape 1 copy 14" class="s0" d="m88 87h5v5h-5z"/>
+	<path id="Shape 1 copy 15" class="s0" d="m88 93h5v5h-5z"/>
+	<path id="Shape 1 copy 16" class="s0" d="m94 51h5v5h-5z"/>
+	<path id="Shape 1 copy 17" class="s0" d="m94 57h5v5h-5z"/>
+	<path id="Shape 1 copy 18" class="s0" d="m94 63h5v5h-5z"/>
+	<path id="Shape 1 copy 19" class="s0" d="m94 69h5v5h-5z"/>
+	<path id="Shape 1 copy 20" class="s0" d="m94 75h5v5h-5z"/>
+	<path id="Shape 1 copy 21" class="s0" d="m94 81h5v5h-5z"/>
+	<path id="Shape 1 copy 22" class="s0" d="m94 87h5v5h-5z"/>
+	<path id="Shape 1 copy 23" class="s0" d="m94 93h5v5h-5z"/>
+	<path id="Shape 1 copy 24" class="s0" d="m100 51h5v5h-5z"/>
+	<path id="Shape 1 copy 25" class="s0" d="m100 57h5v5h-5z"/>
+	<path id="Shape 1 copy 26" class="s0" d="m100 63h5v5h-5z"/>
+	<path id="Shape 1 copy 27" class="s0" d="m100 69h5v5h-5z"/>
+	<path id="Shape 1 copy 28" class="s0" d="m100 75h5v5h-5z"/>
+	<path id="Shape 1 copy 29" class="s0" d="m100 81h5v5h-5z"/>
+	<path id="Shape 1 copy 30" class="s0" d="m100 87h5v5h-5z"/>
+	<path id="Shape 1 copy 31" class="s0" d="m100 93h5v5h-5z"/>
+	<path id="Shape 1 copy 32" class="s0" d="m106 51h5v5h-5z"/>
+	<path id="Shape 1 copy 33" class="s0" d="m106 57h5v5h-5z"/>
+	<path id="Shape 1 copy 34" class="s0" d="m106 63h5v5h-5z"/>
+	<path id="Shape 1 copy 35" class="s0" d="m106 69h5v5h-5z"/>
+	<path id="Shape 1 copy 36" class="s0" d="m106 75h5v5h-5z"/>
+	<path id="Shape 1 copy 37" class="s0" d="m106 81h5v5h-5z"/>
+	<path id="Shape 1 copy 38" class="s0" d="m106 87h5v5h-5z"/>
+	<path id="Shape 1 copy 39" class="s0" d="m106 93h5v5h-5z"/>
+	<path id="Shape 1 copy 40" class="s0" d="m112 51h5v5h-5z"/>
+	<path id="Shape 1 copy 41" class="s0" d="m112 57h5v5h-5z"/>
+	<path id="Shape 1 copy 42" class="s0" d="m112 63h5v5h-5z"/>
+	<path id="Shape 1 copy 43" class="s0" d="m112 69h5v5h-5z"/>
+	<path id="Shape 1 copy 44" class="s0" d="m112 75h5v5h-5z"/>
+	<path id="Shape 1 copy 45" class="s0" d="m112 81h5v5h-5z"/>
+	<path id="Shape 1 copy 46" class="s0" d="m112 87h5v5h-5z"/>
+	<path id="Shape 1 copy 47" class="s0" d="m112 93h5v5h-5z"/>
+	<path id="Shape 1 copy 48" class="s0" d="m118 51h5v5h-5z"/>
+	<path id="Shape 1 copy 49" class="s0" d="m118 57h5v5h-5z"/>
+	<path id="Shape 1 copy 50" class="s0" d="m118 63h5v5h-5z"/>
+	<path id="Shape 1 copy 51" class="s0" d="m118 69h5v5h-5z"/>
+	<path id="Shape 1 copy 52" class="s0" d="m118 75h5v5h-5z"/>
+	<path id="Shape 1 copy 53" class="s0" d="m118 81h5v5h-5z"/>
+	<path id="Shape 1 copy 54" class="s0" d="m118 87h5v5h-5z"/>
+	<path id="Shape 1 copy 55" class="s0" d="m118 93h5v5h-5z"/>
+	<path id="Shape 1 copy 56" class="s0" d="m124 51h5v5h-5z"/>
+	<path id="Shape 1 copy 57" class="s0" d="m124 57h5v5h-5z"/>
+	<path id="Shape 1 copy 58" class="s0" d="m124 63h5v5h-5z"/>
+	<path id="Shape 1 copy 59" class="s0" d="m124 69h5v5h-5z"/>
+	<path id="Shape 1 copy 60" class="s0" d="m124 75h5v5h-5z"/>
+	<path id="Shape 1 copy 61" class="s0" d="m124 81h5v5h-5z"/>
+	<path id="Shape 1 copy 62" class="s0" d="m124 87h5v5h-5z"/>
+	<path id="Shape 1 copy 63" class="s0" d="m124 93h5v5h-5z"/>
+</svg>

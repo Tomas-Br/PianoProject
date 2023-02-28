@@ -1,0 +1,178 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    color: white;
+    margin-left: 10px;
+
+}
+
+#speakerCone {
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+
+
+}
+
+#piano {
+    display: flex;
+    height: 290px;
+    padding: 120px 30px 0 30px;
+    background-color: #660708;
+    border-radius: 10px;
+
+}
+
+.keys {
+    position: relative;
+}
+
+.whiteKeys {
+    display: flex;
+}
+
+.blackKeys {
+    position: relative;
+    display: flex;
+}
+
+.black-key {
+    width: 38px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #000;
+}
+
+.black-key:nth-child(1) {
+    left: 48px;
+}
+
+.black-key:nth-child(2) {
+    left: 117px;
+}
+
+.black-key:nth-child(3) {
+    left: 253px;
+}
+
+.black-key:nth-child(4) {
+    left: 320px;
+}
+
+.black-key:nth-child(5) {
+    left: 389px;
+
+}
+
+.black-key:nth-child(6) {
+    left: 525px;
+}
+
+.black-key:nth-child(7) {
+    left: 594px;
+}
+
+.black-key:nth-child(8) {
+    left: 730px;
+
+}
+
+.black-key:nth-child(9) {
+    left: 797px;
+
+}
+
+.black-key:nth-child(10) {
+    left: 865px;
+}
+
+.black-key:nth-child(11) {
+    left: 1002px;
+}
+
+.black-key:nth-child(12) {
+    left: 1070px;
+}
+
+.black-key:nth-child(13) {
+    left: 1205px;
+}
+
+.black-key:nth-child(14) {
+    left: 1274px;
+}
+
+.black-key:nth-child(15) {
+    left: 1342px;
+}
+
+
+.white-key {
+    width: 68px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: solid #000;
+    box-sizing: border-box;
+}
+
+.white-key.active {
+    background-color: #3ccabe
+}
+
+.black-key.active {
+    background-color: #302d2d;
+}
+
+.noteBox {
+    height: 10vh;
+    width: 30vw;
+    background-color: rgb(85, 42, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1%;
+
+
+
+}
+
+.noteBox2 {
+    height: 10vh;
+    width: 30vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 10px solid #660708;
+    color: #000;
+    align-items: center;
+
+}
+
+#notePressed {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 0;
+
+}
